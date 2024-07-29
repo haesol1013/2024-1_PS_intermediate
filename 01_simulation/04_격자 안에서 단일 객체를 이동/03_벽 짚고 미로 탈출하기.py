@@ -77,7 +77,6 @@ while True:
     if is_wall(diagonal_pos):
         cnt += 1
         curr_pos = front_pos
-        # 다시 돌아왔는지 확인
 
     # 벽 안 이어짐 -> 벽의 오른쪽 90도로 이동
     else:
